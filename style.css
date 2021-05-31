@@ -1,0 +1,57 @@
+*
+{
+    background: rgb(58, 58, 58);
+    
+}
+
+.mp
+{
+    margin: 2px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30vh;
+    height: 30vh;
+    opacity: 1;
+    border-radius: 500px;
+    box-shadow: 20px 20px 100px rgb(0, 0, 0);
+    cursor: pointer;
+    transition: 1s;
+    animation: animate 1s linear;
+}
+
+
+.mp:hover
+{
+    width: 35vh;
+    height: 35vh;
+}
+
+
+@keyframes animate {
+
+    0%
+    {
+
+        opacity: 0;
+        width: 0vh;
+        height: 10vh;
+    }
+
+    80%
+    {
+        opacity: 0.2;
+        width: 32vh;
+        height: 32vh;   
+    }
+
+    100%
+    {
+        opacity: 1;
+        width: 30vh;
+        height: 30vh;
+    }
+    
+}
+
