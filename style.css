@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&effect=neon|outline|emboss|shadow-multiple');
+
 *
 {
     background: rgb(58, 58, 58);
-    
+    font-family: 'Fredoka One', sans-serif;
 }
 
 .mp
 {
-    margin: 2px;
+    margin: 30px;
     object-fit: cover;
     display: block;
     margin-left: auto;
@@ -15,10 +17,23 @@
     height: 30vh;
     opacity: 1;
     border-radius: 500px;
-    box-shadow: 20px 20px 100px rgb(0, 0, 0);
+    box-shadow: 20px 20px 50px rgb(0, 0, 0);
     cursor: pointer;
     transition: 1s;
-    animation: animate 1s linear;
+    animation: ianimate 1s linear;
+}
+
+
+.Text
+{
+
+    color: wheat;
+    font-size: 40px;
+    margin: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 
@@ -28,12 +43,25 @@
     height: 35vh;
 }
 
+a
+{
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 400px;
+}
 
-@keyframes animate {
+@keyframes ianimate {
 
     0%
     {
-
         opacity: 0;
         width: 0vh;
         height: 10vh;
@@ -54,4 +82,3 @@
     }
     
 }
-
